@@ -9,3 +9,7 @@ app.listen(port, () => {
 app.get('/', (req, res) => {
   res.send("Hello World!");
 });
+
+app.get('/parks', (req, res) => {
+  res.send("The parks you've seen.");
+});
